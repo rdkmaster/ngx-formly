@@ -24,8 +24,8 @@
             "tsConfig": "demo/tsconfig.app.json",
             "aot": true,
             "assets": ["demo/src/favicon.ico", "demo/src/assets"],
-            "styles": ["demo/src/styles.scss"],
-            "scripts": []
+            "styles": ["demo/src/styles.scss", "node_modules/@rdkmaster/icon-font/css/iconfont.css"],
+            "scripts": ["node_modules/moment/min/moment.min.js"]
           },
           "configurations": {
             "production": {
